@@ -1,8 +1,113 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+ display: flex
+
+}
+#logo{
+  width: 150px;
+  height: 150px;
+  
+}
+header ul {
+  padding: 0;
+  margin:50px,50px;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.navbar{
+  width: 100%;
+  margin-right: 100px;
+  margin-top: 35px;
+  align-items: center;
+ 
+}
+.container{/*/ESTE CONTENEDOR ES DE LA PARTE DE ARRIBA DE NAVEGACION//*/
+  text-align:end;/*ESTE AYUDA A CAMBIAR LA POSICION FINAL O INICIO DE DONDE ESTARA TODO EL CONTENEDRO*/
+  width: 100%;
+  font-size: 15px;
+  margin: 50px,250px;
+  
+}
+.btn{
+  position: relative;
+  z-index: 1;
+  line-height: 48px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  background-color: lawngreen;
+
+}
+
+.container-principal {
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/1170187/pexels-photo-1170187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    padding: 100px 5%;
+   
+  }
+  .container-principal h1{/*Este contenedor contiene la imagen principal central*/
+      font-size: 130px;
+      color:rgb(28, 31, 211);
+  }
+  .container-principal .btn{ /*Boton grande*/
+    font-size: 25px;
+    padding: 0 40px;
+  }
+.container-text-center{ /*La parte de la introduccion*/
+  text-align: center;
+  margin:75px
+} 
+   .row{
+      display: flex;
+      margin-right: 150px;
+      text-align: center;
+      margin-left: 150px;
+      padding-right: 100px;
+
+  }
+  .our-services .btn{
+    font-size: 25px;
+    padding: 0 40px;
+  }
+  #icon {
+    width: 100px;
+  }
+  
+  .footer-content-area { /*Todo el area verde*/
+    margin-top:100px;
+    background: linear-gradient(to right, #0c8032, lawngreen);
+    color: cornsilk;
+    
+  }
+  .footer-content-area .row{ /*Todas las letras*/
+    width: 100%;
+    align-items: rigth;
+    text-align: left;
+    
+  }
+  .footer-area .container{
+   
+   padding: 50px;
+  }
+
+.columns a{ /*letras columnas pero no embarca todo solo a y h3*/
+  display:block;
+  margin-right: 200px;
+  padding: 0,0,500px;
+
+}
+
+
+
+
